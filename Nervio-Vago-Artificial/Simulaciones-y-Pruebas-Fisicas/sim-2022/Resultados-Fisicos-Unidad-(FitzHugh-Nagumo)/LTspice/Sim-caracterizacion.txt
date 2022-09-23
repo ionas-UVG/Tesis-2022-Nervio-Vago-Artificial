@@ -1,0 +1,65 @@
+=====================================
+Subthreshold Stimulus
+=====================================
+Valores del .sch de LTspice.
+Amplitud Estimulación: 	430mV
+Frecuencia/Período:	2Hz/500ms
+Duty Cycle: 		15%
+
+Usando fuente de -0.4V
+Valores del .sch de LTspice.
+Amplitud Estimulación: 	470mV
+Frecuencia/Período:	2Hz/500ms
+Duty Cycle: 		15%
+
+=====================================
+Weak Stimulus
+=====================================
+Valores del .sch de LTspice.
+Amplitud Estimulación: 	470mV
+Frecuencia/Período:	2Hz/500ms
+Duty Cycle: 		15%
+
+Usando fuente de -0.4V
+Valores del .sch de LTspice.
+Amplitud Estimulación: 	1500mV
+Frecuencia/Período:	2Hz/500ms
+Duty Cycle: 		15%
+
+=====================================
+Medium Stimulus
+=====================================
+Valores del .sch de LTspice.
+Amplitud Estimulación: 	1000mV
+Frecuencia/Período:	2Hz/500ms
+Duty Cycle: 		15%
+
+Usando fuente de -0.4V
+Valores del .sch de LTspice.
+Amplitud Estimulación: 	3000mV
+Frecuencia/Período:	2Hz/500ms
+Duty Cycle: 		15%
+
+=====================================
+Strong Stimulus
+=====================================
+Valores del .sch de LTspice.
+Amplitud Estimulación: 	2500mV
+Amplitud Estimulación:  4000mV
+Frecuencia/Período:	2Hz/500ms
+Duty Cycle: 		15%
+
+Usando fuente de -0.4V
+Valores del .sch de LTspice.
+Amplitud Estimulación: 	7000mV
+Frecuencia/Período:	2Hz/500ms
+Duty Cycle: 		15%
+
+
+=====================================
+Nodos de Ranvier
+=====================================
+Valores del .sch de LTspice.
+Amplitud Estimulación: 	1000mV
+Frecuencia/Período:	2Hz/500ms
+Duty Cycle: 		15%
