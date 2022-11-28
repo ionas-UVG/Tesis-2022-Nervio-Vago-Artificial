@@ -18,6 +18,12 @@ Para la construcción del Nervio Vago Artificial se seleccionó el modelo neuron
  
  ### Simulaciones
  
+ Entre las simulaciones realizadas se encuentran: 
+ 
+ * **Unidad de Neurona FitzHugh-Nagumo:** 
+ * **Axón Módular:** 
+ * 
+
 <p align="center">
 <img src="https://github.com/ionas-UVG/Tesis-2022-Nervio-Vago-Artificial/blob/b51f45b2c370843a8341eafaf512505e302ee61d/Documentos/Imagenes/ltspice-sim.png" width="700"> 
 </p>
