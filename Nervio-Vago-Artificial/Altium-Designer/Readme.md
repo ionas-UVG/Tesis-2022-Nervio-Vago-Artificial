@@ -7,4 +7,4 @@ En esta carpeta se encuentra el enlace de la carpeta de Drive en donde se encuet
 
 ![Alt Text](https://github.com/ionas-UVG/Tesis-2022-Nervio-Vago-Artificial/blob/main/Documentos/Imagenes/board-copy.png)
 
-<img src="[drawing.jpg](https://github.com/ionas-UVG/Tesis-2022-Nervio-Vago-Artificial/blob/main/Documentos/Imagenes/board-copy.png)" alt="drawing" width="200"/>
+<img src="[drawing.jpg](https://github.com/ionas-UVG/Tesis-2022-Nervio-Vago-Artificial/blob/main/Documentos/Imagenes/board-copy.png)" alt="https://github.com/ionas-UVG/Tesis-2022-Nervio-Vago-Artificial/blob/main/Documentos/Imagenes/board-copy.png" width="200"/>
