@@ -6,4 +6,4 @@ En esta carpeta se encuentra el enlace de la carpeta de Drive en donde se encuet
 2. Diseño de PCB de placa principal (contiene módulo de alimentación y módulo de entrada para señal de estimulación).
 
 
-<img src="https://github.com/ionas-UVG/Tesis-2022-Nervio-Vago-Artificial/blob/main/Documentos/Imagenes/board-copy.png" width="200" height="200" />
+<img src="https://github.com/ionas-UVG/Tesis-2022-Nervio-Vago-Artificial/blob/main/Documentos/Imagenes/board-copy.png" width="200"/>
