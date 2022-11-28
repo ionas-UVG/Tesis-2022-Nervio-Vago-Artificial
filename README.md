@@ -1,7 +1,7 @@
 # Diseño e implementación del encapsulado para un prototipo de estimulador del nervio vago, y de un nervio vago artificial, como plataforma de pruebas para el estimulador
 
 <p align="center">
-<img src="https://github.com/ionas-UVG/Tesis-2022-Nervio-Vago-Artificial/blob/5153043706a7ae2c09a8a88e634a6104756698e3/Documentos/Imagenes/GIF/neuron.gif" height="150"> <img src="https://github.com/ionas-UVG/Tesis-2022-Nervio-Vago-Artificial/blob/5153043706a7ae2c09a8a88e634a6104756698e3/Documentos/Imagenes/GIF/neuron-synaps.gif" height="150"><img src="https://github.com/ionas-UVG/Tesis-2022-Nervio-Vago-Artificial/blob/2e7fbe03dd19fab017b71f1059ad863009ae48de/Documentos/Imagenes/GIF/vns%20therapy.gif" height="150">
+<img src="https://github.com/ionas-UVG/Tesis-2022-Nervio-Vago-Artificial/blob/5153043706a7ae2c09a8a88e634a6104756698e3/Documentos/Imagenes/GIF/neuron.gif" height="150"> <img src="https://github.com/ionas-UVG/Tesis-2022-Nervio-Vago-Artificial/blob/e79cc0adab2fa9ac0317886fba2164efc780ccc1/Documentos/Imagenes/GIF/action-potential-graphics.gif" height="150"><img src="https://github.com/ionas-UVG/Tesis-2022-Nervio-Vago-Artificial/blob/2e7fbe03dd19fab017b71f1059ad863009ae48de/Documentos/Imagenes/GIF/vns%20therapy.gif" height="150"><img src="https://github.com/ionas-UVG/Tesis-2022-Nervio-Vago-Artificial/blob/e79cc0adab2fa9ac0317886fba2164efc780ccc1/Documentos/Imagenes/GIF/pcb.gif" height="150">
  </p>
  
 ## Visión General
