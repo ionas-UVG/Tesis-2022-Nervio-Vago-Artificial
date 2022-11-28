@@ -1,0 +1,61 @@
+* C:\Users\choco\OneDrive\Documents\GitHub\Tesis-2022-nervio-vago-artificial\Nervio-Vago-Artificial\Simulaciones-y-Pruebas-Fisicas\sim-2022\Simulacion-Unidad-(FitzHugh-Nagumo)\Modulo UN FitzHugh-Nagumo.asc
+RL Vm_No_procesado 0 100k
+R1 N004 0 100k
+R2 N009 N019 2.2k
+Rs Vm_No_procesado N014 100k
+Cs N014 0 1µ
+Q1 N008 Vm_No_procesado N004 0 2N3904
+Q2 Vm_No_procesado N008 N009 0 2N3906
+V1 NC_01 NC_02 0.4
+V§E-Na N019 0 12
+Q3 N010 N014 N017 0 2N3904
+Cm Vm_No_procesado 0 0.47µ
+R3 Vm_No_procesado N010 600
+XU1 Vm_No_procesado N005 +vcc -vcc N005 level1 Avol=1Meg GBW=10Meg Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+XU2 0 N011 +vcc -vcc N012 level1 Avol=1Meg GBW=10Meg Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+XU3 0 N016 +vcc -vcc Vm_Procesado level1 Avol=1Meg GBW=10Meg Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+R4 N011 N005 100k
+R5 N011 N018 1k
+R6 N016 N012 1k
+R7 N012 N011 1k
+R8 Vm_Procesado N016 1k
+V4 N018 0 -60m
+R9 Vm_No_procesado N013 100k
+V7 NC_03 NC_04 PWL(0 0 5m 0 5.0000001m 0.5 15m 0.5 15.000001m 0 40m 0 40.000001m 1 70m 1 70.00001m 0 130m 0 130.00001m 2 150m 2 150.00001m 0 190m 0 190.00001m 3 200m 3 200.00001m 0 240m 0 240.00001m 5 250m 5 250.00001m 0 290m 0 290.00001m 5 330m 5 330.00001m 0 350m 0 350.00001m 5 400m 5 400.00001m 0 430m 0 430.00001m 7 450m 7 450.00001m 0 480m 0 480.00001m 7 520m 7 520.00001m 0 550m 0 550.00001m 1 610m 1 610.00001m 0 700m 0 700.00001m 0.5 760m 0.5 760.00001m 0 780m 0 780.00001m 1 870.m 1 870.00001m 0)
+V8 NC_05 NC_06 PWL(0 0 5m 0 5.0000001m 0.5 15m 0.5 15.000001m 0 70m 0 70.000001m 1 80m 1 80.000001m 0 135m 0 135.000001m 2 145m 2 145.000001m 0 200m 0 200.000001m 3 210m 3 210.000001m 0 265m 0 265.000001m 4 275m 4 275.000001m 0 330m 0 330.00001m 5 340m 5 340.000001m 0)
+V6 NC_07 NC_08 PULSE(0 5 0 1f 1f 10m 50m)
+XU4 0 N006 N001 N003 NC_09 N006 N007 N003 NE555
+R10 N003 N007 2k
+R11 N007 N006 10k
+C1 N003 0 10µ
+C2 N002 N001 4.7µ
+C3 N001 N015 4.7µ
+C4 +vcc 0 4.7µ
+C5 0 -vcc 4.7µ
+D1 N002 +vcc 1N914
+D2 0 N002 1N914
+D3 N015 0 1N4148
+D4 -vcc N015 1N4148
+C6 N006 0 100n
+V9 N003 0 9
+V2 N013 0 PWL(0 0 5m 0 5.0000001m 0.5 15m 0.5 15.000001m 0 70m 0 70.000001m 1 80m 1 80.000001m 0 135m 0 135.000001m 2 145m 2 145.000001m 0 200m 0 200.000001m 3 210m 3 210.000001m 0 265m 0 265.000001m 4 275m 4 275.000001m 0 330m 0 330.00001m 5 340m 5 340.000001m 0)
+V3 0 N017 0.4
+.model D D
+.lib C:\Users\choco\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\choco\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.tran 0 0.4 0 0.01
+* Unidad Neuronal FitzHugh-Nagumo
+* Modulo de acondicionamiento de la señal
+* Los siguientes bloques se encuentran conectados para simular el cambio en el potencial de membrana\nen una célula de neurona. Debido a que el modelo presenta a la salida un potencial de membrano mucho\nmayor al del potencial biológico, el módulo de acondicionamiento disminuye su amplitud (entre +40mV y \n-70mV) y establece el potencial de reposo de la membrana.
+* Pruebas de amplitud de \nla estimualción\n(amplitudes al azar)
+* Pruebas de amplitud de \nla estimualción\n(amplitudes seleccionadas)
+* Copiar y pega la fuente en el espacio indicado para simular los distintos casos:
+* Tren de potenciales
+;tran 0 0.5 0 0.001
+* Unidad de Alimentación
+.lib NE555.sub
+.lib UniversalOpAmp1.lib
+.backanno
+.end
