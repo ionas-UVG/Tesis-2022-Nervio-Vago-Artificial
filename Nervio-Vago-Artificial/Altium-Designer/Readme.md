@@ -5,4 +5,4 @@ En esta carpeta se encuentra el enlace de la carpeta de Drive en donde se encuet
 1. Diseño de PCB de unidades de Neurona FitzHugh-Nagumo.
 2. Diseño de PCB de placa principal (contiene módulo de alimentación y módulo de entrada para señal de estimulación).
 
-![Alt Text](Documentos/Imagenes/board-copy.png)
+![Alt Text]([Documentos/Imagenes/board-copy.png](https://github.com/ionas-UVG/Tesis-2022-Nervio-Vago-Artificial/blob/main/Documentos/Imagenes/board-copy.png))
