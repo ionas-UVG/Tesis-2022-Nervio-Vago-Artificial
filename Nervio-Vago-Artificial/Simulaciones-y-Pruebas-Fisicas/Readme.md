@@ -1,5 +1,11 @@
 # Simulaciones y Pruebas Físicas
 
+Este espacio está dedicado al almacenamiento de simulaciones y pruebas físicas realizadas para el desarrollo del Nervio Vago Artificial. 
+
+## Simulaciones realizadas en 2021
+* **Características pasivas de la membrana celular de un axón de neurona:** Se realizaron pruebas en LTspice considerando la resistencia y capacitancia de la membrana celular de un axón de neurona.
+
+## Simulaciones realizadas en 2022
 Para las simulaciones se utilizó la herramienta de simulación LTspice. A continuación, se listan las simulaciones realizadas:
 
 * **Unidad de Neurona FitzHugh-Nagumo:** Se simularon cada una de las etapas que conforman el modelo neuronal seleccionado y realizaron pruebas con señales de distintas amplitudes y frecuencias.
