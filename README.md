@@ -18,11 +18,11 @@ Para la construcción del Nervio Vago Artificial se seleccionó el modelo neuron
  
  ### Simulaciones
  
- Entre las simulaciones realizadas se encuentran: 
+ Para las simulaciones se utilizó la herramienta de simulación LTspice. A continuación, se listan las simulaciones realizadas:
  
- * **Unidad de Neurona FitzHugh-Nagumo:** 
- * **Axón Módular:** 
- * 
+ * **Unidad de Neurona FitzHugh-Nagumo:** Se simularon cada una de las etapas que conforman el modelo neuronal seleccionado y realizaron pruebas con señales de distintas amplitudes y frecuencias.
+ * **Axón Módular:** Se definieron como componentes la unidad de neurona FitzHugh-Nagumo y el módulo de acondicionamiento y se utilizaron para la construcción de un axón de neurona de 5 segmentos, con el fin de observar el comportamiento del estímulo aplicado conforme atraviesa el axón. 
+ * **Unidad de Alimentación:** Se realizaron pruebas con el módulo de alimentación construido. Este se construyó a partir de un NE555 que genera un voltaje negativo de 12V a partir de la alimentación proveída por un transformador de 12V.
 
 <p align="center">
 <img src="https://github.com/ionas-UVG/Tesis-2022-Nervio-Vago-Artificial/blob/b51f45b2c370843a8341eafaf512505e302ee61d/Documentos/Imagenes/ltspice-sim.png" width="700"> 
