@@ -34,24 +34,25 @@ Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
 Heightened Def Con from 0.005 to 0.005
-Heightened Def Con from 0.005 to 0.005
+Heightened Def Con from 0.265 to 0.265
+Heightened Def Con from 0.275 to 0.275
 Heightened Def Con from 0.34 to 0.34
 
-Date: Thu Sep 22 19:11:10 2022
-Total elapsed time: 0.911 seconds.
+Date: Wed Feb 15 17:52:15 2023
+Total elapsed time: 0.893 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 7357
-traniter = 6787
-tranpoints = 2429
-accept = 1958
-rejected = 474
+totiter = 7412
+traniter = 6842
+tranpoints = 2414
+accept = 1953
+rejected = 465
 matrix size = 164
 fillins = 201
 solver = Normal
-Thread vector: 39.2/8.2[2] 16.8/10.0[2] 2.2/5.4[1] 1.6/3.3[1]  2592/500
-Matrix Compiler1: 22.80 KB object code size  30.5/15.8/[3.1]
-Matrix Compiler2: 17.36 KB object code size  3.2/4.1/[1.9]
+Thread vector: 45.5/33.7[2] 15.9/12.8[2] 5.8/4.6[2] 1.4/906.3[1]  2592/500
+Matrix Compiler1: 22.80 KB object code size  11.6/7.3/[2.9]
+Matrix Compiler2: 17.36 KB object code size  3.8/5.9/[1.8]
 
