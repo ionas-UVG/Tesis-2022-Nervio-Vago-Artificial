@@ -1,0 +1,134 @@
+* C:\Users\choco\OneDrive\Documents\GitHub\Tesis-2022-nervio-vago-artificial\Nervio-Vago-Artificial\Simulaciones\Simulaciones - 2022\Simulacion-Unidad-(FitzHugh-Nagumo)\Pruebas Rampa\Compound-Action-Potential.asc
+RL1 OUT-N1 0 100k
+R5 N006 0 100k
+R6 N010 +12V 2.2k
+Rs1 OUT-N1 N012 80k
+Cs1 N012 0 1µ
+Q1 N007 OUT-N1 N006 0 2N3904
+Q2 OUT-N1 N007 N010 0 2N3906
+Q3 N011 N012 -400mV 0 2N3904
+Cm1 OUT-N1 0 0.47µ
+R7 OUT-N1 N011 600
+V3 -400mV 0 -400mV
+RL2 OUT-N2 0 30k
+R9 N015 0 100k
+R10 N019 +12V 2.2k
+Rs2 OUT-N2 N021 100k
+Cs2 N021 0 1µ
+Q4 N016 OUT-N2 N015 0 2N3904
+Q5 OUT-N2 N016 N019 0 2N3906
+Q6 N020 N021 -400mV 0 2N3904
+Cm2 OUT-N2 0 0.47µ
+R11 OUT-N2 N020 600
+RL4 OUT-N3 0 100k
+R14 N024 0 100k
+R15 N029 +12V 2.2k
+Rs3 OUT-N3 N031 100k
+Cs3 N031 0 1µ
+Q7 N026 OUT-N3 N024 0 2N3904
+Q8 OUT-N3 N026 N029 0 2N3906
+Q9 N030 N031 -400mV 0 2N3904
+Cm4 OUT-N3 0 1µ
+R16 OUT-N3 N030 600
+R18 N001 Vm-Acond-N1 1k
+R19 N001 Vm-Acond-N2 1k
+R20 N002 N001 1k
+XU4 0 N001 +12V -12V N002 level2 Avol=1Meg GBW=10Meg Slew=10Meg Ilimit=25m Rail=0 Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+V4 +12V 0 12
+XU5 0 N003 +12V -12V CAP level2 Avol=1Meg GBW=10Meg Slew=10Meg Ilimit=25m Rail=0 Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+R21 N003 N002 1k
+R22 CAP N003 1k
+R29 N001 Vm-Acond-N3 4k
+R30 N001 Vm-Acond-N4 8k
+XU3 OUT-N1 N004 +12V -12V N004 level2 Avol=1Meg GBW=10Meg Slew=10Meg Ilimit=25m Rail=0 Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+XU9 OUT-N3 N023 +12V -12V N023 level2 Avol=1Meg GBW=10Meg Slew=10Meg Ilimit=25m Rail=0 Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+XU10 OUT-N2 N013 +12V -12V N013 level2 Avol=1Meg GBW=10Meg Slew=10Meg Ilimit=25m Rail=0 Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+XU11 OUT-N4 N036 +12V -12V N036 level2 Avol=1Meg GBW=10Meg Slew=10Meg Ilimit=25m Rail=0 Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+RL5 OUT-N4 0 80k
+R3 N038 0 100k
+R4 N042 +12V 2.2k
+Rs4 OUT-N4 N044 100k
+Cs4 N044 0 1µ
+Q10 N039 OUT-N4 N038 0 2N3904
+Q11 OUT-N4 N039 N042 0 2N3906
+Q12 N043 N044 -400mV 0 2N3904
+Cm5 OUT-N4 0 1µ
+R25 OUT-N4 N043 600
+V1 STIM 0 PWL file="C:\Users\choco\OneDrive\Documents\GitHub\Tesis-2022-nervio-vago-artificial\Nervio-Vago-Artificial\Simulaciones\Simulaciones - 2022\PWL FILES\2sUpRamp-2sStable-2sDownRamp.txt"
+XU14 0 N040 +12V -12V N041 level1 Avol=1Meg GBW=10Meg Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+R36 N040 N036 100k
+R37 N040 -60mV 1k
+R38 N041 N040 1k
+XU15 0 N017 +12V -12V N018 level1 Avol=1Meg GBW=10Meg Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+R39 N017 N013 100k
+R40 N017 -60mV 1k
+R41 N018 N017 1k
+XU16 0 N027 +12V -12V N028 level1 Avol=1Meg GBW=10Meg Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+R42 N027 N023 100k
+R43 N027 -60mV 1k
+R44 N028 N027 1k
+XU17 0 N008 +12V -12V N009 level1 Avol=1Meg GBW=10Meg Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+R45 N008 N004 100k
+R46 N008 -60mV 1k
+R47 N009 N008 1k
+XU19 0 N037 +12V -12V Vm-Acond-N4 level1 Avol=1Meg GBW=10Meg Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+R48 N037 N041 1k
+R49 Vm-Acond-N4 N037 1k
+XU20 0 N014 +12V -12V Vm-Acond-N2 level1 Avol=1Meg GBW=10Meg Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+R50 N014 N018 1k
+R51 Vm-Acond-N2 N014 1k
+XU21 0 N025 +12V -12V Vm-Acond-N3 level1 Avol=1Meg GBW=10Meg Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+R52 N025 N028 1k
+R53 Vm-Acond-N3 N025 1k
+XU22 0 N005 +12V -12V Vm-Acond-N1 level1 Avol=1Meg GBW=10Meg Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+R54 N005 N009 1k
+R55 Vm-Acond-N1 N005 1k
+XU18 0 N032 N035 +12V NC_01 N032 N034 +12V NE555
+R27 +12V N034 2k
+R35 N034 N032 10k
+C6 +12V 0 10µ
+C8 N035 N033 4.7µ
+C10 0 -12V 4.7µ
+D6 N033 0 1N4148
+D7 -12V N033 1N4148
+C11 N032 0 100n
+V2 -60mV 0 -60mV
+R8 OUT-N1 STIM 10k
+R12 OUT-N2 STIM 10k
+R13 OUT-N3 STIM 50k
+R17 OUT-N4 STIM 60k
+XU1 0 +3.3V +5V LT1117-3.3
+XU6 0 +5V N022 LT1117-5
+C3 +3.3V 0 47µ
+D2 +12V N022 1N4148
+C4 N022 0 47µ
+C5 +5V 0 47µ
+.model D D
+.lib C:\Users\choco\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\choco\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.tran 0 6 0 0.001 startup
+* ETAPA DE SUMATORIA - GENERACION \nDE POTENCIAL COMPUESTO
+* GENERACIÓN DE POTENCIALES DE ACCIÓN COMPUESTO
+* AXONES
+* Aquí se colocan los interruptores
+* Axones tipo A
+* Axones tipo B
+* Axones tipo B
+* Axones tipo B
+* Las fibras nerviosas se clasifican en distintos tipos (Aalpha, Abeta, Asigma, Adelta; B, y C) de acuerdo\ncon su velocidad de conducción nerviosa y su función.
+* ETAPA DE PROCESAMIENTO
+* El modelo de FitzHugh-Nagumo presenta a la salida un potencial de acción \ncon una amplitud mayor a la que presentaría una membrana celular real. \nPor esto se implementó una etapa de procesamiento para reducir la amplitud \nde la señal y crear un offset tal que la señal se encuentre entre +40mV y -70mV \n(valores característicos de los potenciales de acción reales).
+* Al estimular un nervio mixto (posee fibras nerviosas aferentes y eferentes)\nla contribución de todos los potenciales de acción que se generan en las \ndistintas fibras nerviosas conforman el potencial de acción compuesto.\nEste potencial puede medirse haciendo uso de un electrodo colocado a\nuna distancia determinada del punto de estimulación.
+* FUENTES DE VOLTAJE EXTERNAS
+* El modelo de nervio vago requiere de los siguientes voltajes.\n \nSegmento de axón:\n->   +12V      ->   -40mV      ->   Señal de estimulación\n \nEtapa de procesamiento:\n->   -60mV
+* FUENTES DE VOLTAJE +5V Y -12V
+* La fuente de voltaje de +5V se construyó con el fin de tener una\nfuente de alimentación para LEDs en el case del nervio vago.\n \nSe construyó un generador de voltaje de -12V para alimentar los \nopamps de la etapa de procesamiento y así generar la etapa de\nhiperpolarización del potencial de acción.
+* Usar archivo pwl para pruebas con rampa
+.lib LT1117.lib
+.lib NE555.sub
+.lib UniversalOpAmp1.lib
+.lib UniversalOpAmp2.lib
+.backanno
+.end

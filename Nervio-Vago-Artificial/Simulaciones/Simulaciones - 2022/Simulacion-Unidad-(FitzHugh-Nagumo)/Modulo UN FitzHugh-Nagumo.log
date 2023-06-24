@@ -1,0 +1,31 @@
+Circuit: * C:\Users\choco\OneDrive\Documents\GitHub\Tesis-2022-nervio-vago-artificial\Nervio-Vago-Artificial\Simulaciones\Simulaciones - 2022\Simulacion-Unidad-(FitzHugh-Nagumo)\Modulo UN FitzHugh-Nagumo.asc
+
+WARNING: Node NC_02 is floating.
+WARNING: Node NC_04 is floating.
+WARNING: Node NC_06 is floating.
+
+WARNING: Less than two connections to node NC_01.  This node is used by V7.
+WARNING: Less than two connections to node NC_02.  This node is used by V7.
+WARNING: Less than two connections to node NC_03.  This node is used by V8.
+WARNING: Less than two connections to node NC_04.  This node is used by V8.
+WARNING: Less than two connections to node NC_05.  This node is used by V6.
+WARNING: Less than two connections to node NC_06.  This node is used by V6.
+Direct Newton iteration for .op point succeeded.
+
+Date: Fri Jun 23 20:12:01 2023
+Total elapsed time: 4.268 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 346985
+traniter = 346963
+tranpoints = 82543
+accept = 61615
+rejected = 20928
+matrix size = 59
+fillins = 16
+solver = Normal
+Matrix Compiler1: 3.98 KB object code size  1.7/1.1/[0.6]
+Matrix Compiler2: 4.44 KB object code size  0.9/1.5/[0.6]
+
